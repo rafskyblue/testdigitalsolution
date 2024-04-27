@@ -1,0 +1,76 @@
+
+.MuiDialogTitle-root {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  .cancel-button {
+    color: #666;
+  }
+  
+  .save-button {
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  .MuiDialogContent-root {
+    padding: 20px;
+  }
+  
+
+  .table-header {
+    background-color: #f0f0f0; 
+    font-weight: bold; 
+  }
+  
+  .table-header-cell {
+    padding: 10px; 
+    border-bottom: 2px solid #ddd; 
+  }
+  
+  .table-header-cell {
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .table-header-cell:hover {
+    background-color: #e0e0e0; 
+  }
+
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    background-color: #959090;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button:hover {
+    background-color: #ddd;
+  }
+  
+  .items-per-page-select {
+    margin-left: 10px;
+    padding: 6px 8px; 
+  height: 32px; 
+  }
+  
+  .items-per-page-text {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
