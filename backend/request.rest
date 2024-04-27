@@ -1,0 +1,33 @@
+GET http://localhost:5000/products
+
+###
+GET http://localhost:5000/products/662cddbe7d0f53c7a9deb9d8
+
+###
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "merek": "Toyota Avanza",
+    "jenis": "Mobil",
+    "jumlah_stock": "10",
+    "harga": "215000000",
+    "keterangan": "Baru"
+
+}
+
+###
+PATCH  http://localhost:5000/products/662cddbe7d0f53c7a9deb9d8
+Content-Type: application/json
+
+{
+    "merek": "Daihatsu Sigra",
+    "jenis": "Mobil",
+    "jumlah_stock": "2",
+    "harga": "113000000",
+    "keterangan": "Bekas"
+
+}
+
+###
+DELETE   http://localhost:5000/products/662ce9a533c37e56dddee24d
